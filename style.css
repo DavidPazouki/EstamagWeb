@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/windmill_sun_blur.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.image-wrapper{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    
+}
+
+.img-logo{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.estamag-text{
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.estamag-text h2{
+    padding: 30px 30px 20px;
+    font-family: arial;
+    font-size: 40px;
+    color:white;
+    line-height: 44px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.estamag-text p{
+    padding: 0px 30px 20px;
+    font-family: arial;
+    font-size: 20px;
+    color:rgb(218, 218, 218);
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* make different margin and box size for desktop screen */
+
+/* Mobile View */
+@media only screen and (max-width: 1500px){
+    .estamag-text{
+        text-align: center;
+        background-color: rgba(0,0,0,0.4);
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 3em;
+        margin-bottom: 1em;
+    }
+
+    .estamag-text p{
+        font-size: 16px;
+    }
+}
+
+
