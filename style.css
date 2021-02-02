@@ -3,158 +3,86 @@
     padding: 0;
 }
 
-body{
+body {
     background-image: url(images/windmill_sun_blur.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.test{
-    width: 100px;
-    height: auto;
-    margin-top: 40px;
-}
-    
-
-.container{
-    position: relative;
-}
-
-.content{
-    display: none;
-}
-
-.content.contentEnglish{
-    display: block;
-}
-
-.check{
-    position: sticky;
-    width: 50px;
-}
-
-.check::before{
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 25px;
-    background: #333;
-    border-radius: 25px;
-}
-
-.check:checked:before{
-    background: #00a1ff;
-}
-
-.check::after{
-    content: '';
-    position: absolute;
-    left: 0px;
-    width: 25px;
-    height: 25px;
-    background: #fff;
-    border-radius: 25px;
-    transition: 0.25s;
-    border: 2px solid #333;
-    box-sizing: border-box;
-}
-
-.check:checked::after{
-    left: 25px;
-    border: 2px solid #00a1ff;
-}
-
-.check:checked ~ .content.contentEnglish{
-    display: none;
-}
-
-.check:checked ~ .content.contentGerman{
-    display: block;
-}
-
-.en{
-    color: #333;
-}
-
-.de{
-    color: #00a1ff;
-}
-
-.usImg{
+.aut_button {
     width: 30px;
     height: auto;
-    margin-left: 2em;
-    margin-top: 5px;
-    
+    position: absolute;
+    right: 0%;
 }
 
-.autImg{
-    width: 30px;
-    height: auto;
+.us_button {
+    width: 34px;
+    position: absolute;
+    right: 0%;
 }
 
-.wrapper{
+.wrapper {
     width: 100%;
 }
 
-.image-wrapper{
-    padding-top: 1em;
-    padding-bottom: 1em;
+.image-wrapper {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     width: 100%;
-    background-color: rgba(0,0,0,0.4);
-    
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
-.img-logo{
+.img-logo {
     width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.estamag-text{
+.estamag-text {
     text-align: center;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     margin-left: 20em;
     margin-right: 20em;
     margin-top: 3em;
     margin-bottom: 1em;
 }
 
-.estamag-text h2{
+.estamag-text h2 {
     padding: 30px 30px 20px;
     font-family: arial;
     font-size: 40px;
-    color:white;
+    color: white;
     line-height: 44px;
     font-family: 'Roboto', sans-serif;
 }
 
-.estamag-text p{
+.estamag-text p {
     padding: 0px 30px 20px;
     font-family: arial;
     font-size: 20px;
-    color:rgb(218, 218, 218);
+    color: rgb(218, 218, 218);
     line-height: 24px;
     font-family: 'Roboto', sans-serif;
 }
 
+
 /* make different margin and box size for desktop screen */
 
+
 /* Mobile View */
-@media only screen and (max-width: 1500px){
-    .estamag-text{
+
+@media only screen and (max-width: 1500px) {
+    .estamag-text {
         text-align: center;
-        background-color: rgba(0,0,0,0.4);
+        background-color: rgba(0, 0, 0, 0.4);
         margin-left: 2em;
         margin-right: 2em;
         margin-top: 3em;
         margin-bottom: 1em;
     }
-
-    .estamag-text p{
+    .estamag-text p {
         font-size: 16px;
     }
 }
-
-
