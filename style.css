@@ -4,9 +4,9 @@
 }
 
 body{
-    background-image: url(images/windmill_sun_blur.jpg);
+   /* background-image: url(images/windmill_sun_blur.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 .test{
@@ -74,12 +74,12 @@ body{
 }
 
 .en{
-    color: #00a1ff;
+    color: black;
     margin-left: 0.5em;
 }
 
 .de{
-    color: #00a1ff;
+    color:black;
 }
 
 
@@ -104,7 +104,7 @@ body{
     padding-top: 1em;
     padding-bottom: 1em;
     width: 100%;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     
 }
 
@@ -117,7 +117,7 @@ body{
 
 .estamag-text{
     text-align: center;
-    background-color: rgba(0,0,0,0.4);
+    background-color: white;
     margin-left: 20em;
     margin-right: 20em;
     margin-top: 3em;
@@ -128,7 +128,7 @@ body{
     padding: 30px 30px 20px;
     font-family: arial;
     font-size: 40px;
-    color:white;
+    color:rgb(0, 0, 0);
     line-height: 44px;
     font-family: 'Roboto', sans-serif;
 }
@@ -137,7 +137,7 @@ body{
     padding: 0px 30px 20px;
     font-family: arial;
     font-size: 20px;
-    color:rgb(218, 218, 218);
+    color:rgb(0, 0, 0);
     line-height: 24px;
     font-family: 'Roboto', sans-serif;
 }
@@ -148,7 +148,7 @@ body{
 @media only screen and (max-width: 1500px){
     .estamag-text{
         text-align: center;
-        background-color: rgba(0,0,0,0.4);
+        background-color: white;
         margin-left: 2em;
         margin-right: 2em;
         margin-top: 3em;
