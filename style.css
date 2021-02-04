@@ -29,8 +29,9 @@ body{
 }
 
 .check{
-    position: sticky;
+    position: relative;
     width: 50px;
+    margin-top: 10px;
 }
 
 .check::before{
@@ -74,15 +75,13 @@ body{
 
 .en{
     color: #00a1ff;
+    margin-left: 0.5em;
 }
 
 .de{
     color: #00a1ff;
 }
 
-.checkbox_wrapper{
-
-}
 
 .usImg{
     width: 30px;
