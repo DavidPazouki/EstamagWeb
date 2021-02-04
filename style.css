@@ -20,11 +20,11 @@ body{
     position: relative;
 }
 
-.content{
+.container .content{
     display: none;
 }
 
-.content.contentEnglish{
+.container .content.contentEnglish{
     display: block;
 }
 
@@ -73,11 +73,15 @@ body{
 }
 
 .en{
-    color: #333;
+    color: #00a1ff;
 }
 
 .de{
     color: #00a1ff;
+}
+
+.checkbox_wrapper{
+
 }
 
 .usImg{
